@@ -11,7 +11,18 @@ export default function App() {
           <Dictionary />
         </main>
         <br />
-        <footer className="text-center">Coded by Silvija Svegzde</footer>
+        <footer className="text-center">
+          <small>
+            <a
+              href="https://github.com/SilvijaSvegzde/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Open-sourced on GitHub
+            </a>{" "}
+            by Silvija Svegzde
+          </small>
+        </footer>
       </div>
     </div>
   );

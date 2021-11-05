@@ -6,10 +6,10 @@ export default function App() {
     <div className="App">
       <div className="container">
         <main>
-          <Dictionary defaultKeyword="dog" />
+          <Dictionary defaultKeyword="forest" />
         </main>
         <br />
-        <footer className="text-center">
+        <footer className="mb-4">
           <small>
             <a
               href="https://github.com/SilvijaSvegzde/dictionary-project"

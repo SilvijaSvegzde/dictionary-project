@@ -14,8 +14,15 @@
   color: #333;
 }
 
-.Dictionary h1 {
-  font-size: 18px;
-  font-weight: bold;
+.Dictionary h3 {
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 600;
   margin-bottom: 15px;
+}
+
+.Dictionary h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }

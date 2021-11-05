@@ -5,8 +5,13 @@
 }
 
 body {
-  background: #ececec;
+  font-family: "Poppins", sans-serif;
+  background-image: url(forest.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
   margin: 0 auto;
+  max-width: 800px;
 }
 
 h2 {
@@ -14,4 +19,20 @@ h2 {
   font-size: 24px;
   display: block;
   margin-bottom: 30px;
+}
+
+small {
+  color: white;
+  border: 1px solid rgb(31, 29, 29);
+  background-color: rgb(31, 29, 29);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
 }

@@ -6,9 +6,9 @@ export default function App() {
     <div className="App">
       <div className="container">
         <main>
-          <Dictionary defaultKeyword="forest" />
+          <Dictionary defaultKeyword="ocean" />
         </main>
-        <br />
+
         <footer className="mb-4">
           <small>
             <a

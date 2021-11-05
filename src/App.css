@@ -6,7 +6,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: url(forest.jpg);
+  background-image: url(ocean1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.9;
@@ -27,6 +27,7 @@ small {
   background-color: rgb(31, 29, 29);
   border-radius: 5px;
   padding: 5px;
+  opacity: 0.8;
 }
 
 a {

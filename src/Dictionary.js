@@ -19,12 +19,12 @@ export default function Dictionary(props) {
   }
 
   function search() {
-    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
     let pexelsApiKey =
       "563492ad6f91700001000001d0f77890bfbe48189c7e48833d5588ba";
     let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
-    let headers = { Authorization: `Bearer${pexelsApiKey}` };
+    let headers = { Authorization: `Bearer ${pexelsApiKey}` };
     axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
   }
 
@@ -45,7 +45,10 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <section>
-          <h1 className="text-center">Make your words meaningful</h1>
+          <h1 className="text-center">
+            Dictionary 📖
+            <h2> Make your words meaningful </h2>
+          </h1>
           <br></br>
           <h3>What word do you want to look up?</h3>
           <form onSubmit={handleSubmit} class="text-center">
@@ -56,7 +59,7 @@ export default function Dictionary(props) {
             />
           </form>
         </section>
-        <br />
+
         <Results results={results} />
         <Photos photos={photos} />
       </div>

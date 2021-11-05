@@ -2,3 +2,11 @@
   border-radius: 4px;
   margin-bottom: 20px;
 }
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}

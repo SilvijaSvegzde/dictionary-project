@@ -20,6 +20,17 @@ export default function Photos(props) {
             );
           })}
         </div>
+
+        <small>
+          <a
+            href="https://github.com/SilvijaSvegzde/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-sourced on GitHub
+          </a>{" "}
+          by Silvija Svegzde
+        </small>
       </section>
     );
   } else {

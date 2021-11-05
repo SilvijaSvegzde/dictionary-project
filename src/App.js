@@ -6,21 +6,8 @@ export default function App() {
     <div className="App">
       <div className="container">
         <main>
-          <Dictionary defaultKeyword="ocean" />
+          <Dictionary defaultKeyword="book" />
         </main>
-
-        <footer className="mb-4">
-          <small>
-            <a
-              href="https://github.com/SilvijaSvegzde/dictionary-project"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Open-sourced on GitHub
-            </a>{" "}
-            by Silvija Svegzde
-          </small>
-        </footer>
       </div>
     </div>
   );

@@ -6,10 +6,11 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: url(bookshelves.jpg);
-  width: 100%;
+  background-image: url(openbook.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   margin: 0 auto;
   max-width: 800px;
 }

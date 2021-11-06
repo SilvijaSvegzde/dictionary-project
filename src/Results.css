@@ -7,3 +7,7 @@
   font-style: italic;
   margin-top: 10px;
 }
+
+.Results section {
+  opacity: 0.9;
+}

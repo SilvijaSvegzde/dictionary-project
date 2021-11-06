@@ -44,7 +44,7 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <section>
+        <section className="head">
           <h1 className="text-center">Dictionary</h1>
           <h2 className="text-center"> Make your words meaningful </h2>
           <br></br>

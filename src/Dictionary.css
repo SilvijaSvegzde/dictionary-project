@@ -6,6 +6,10 @@
   margin: 20px 0;
 }
 
+.head {
+  opacity: 0.9;
+}
+
 .Dictionary input {
   width: 100%;
   padding: 6px 10px;
